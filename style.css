@@ -6,7 +6,6 @@
 }
 body{
     background-color: #f6f6f7;
-    width: 1200px;
     margin: auto;
 }
 header{
@@ -18,7 +17,9 @@ header{
     border-radius: 15px;
 }
 main{
-
+padding:0 200px;
+/* width: 1200px;
+margin: auto; */
 }
 input{
     width: 300px;
@@ -74,7 +75,15 @@ button{
     padding: 5px 10px;
     border-radius: 5px;
 }
+.selected{
+    background-color: white;
+    color: #220efa;
+    border: 2px solid #220efa;
+}
 @media(max-width: 1000px){
+    main{
+        padding: 0;
+    }
     #search{
         display: flex;
         flex-direction: column;

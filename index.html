@@ -14,64 +14,64 @@
         <div id="search">
             <input placeholder="search" id="search-input" type="text"/>
             <div>
-                <button>All</button>
-                <button>Technology</button>
-                <button>Clothing</button>
-                <button>Health</button>
+                <button class="filter" data-filter="all">All</button>
+                <button class="filter" data-filter="technology">Technology</button>
+                <button class="filter" data-filter="clothing">Clothing</button>
+                <button class="filter" data-filter="health">Health</button>
             </div>
-            <div>
+            <div id="search-price">
                 <input placeholder="search price" type="number"/>
                 <button>search</button>
             </div>
         </div>
         <div id="products">
-            <div class="product-item">
+            <div class="product-item" data-category="technology">
                 <img src="./img/iphone.png"/>
                 <p>Apple iphone 14 pro</p>
-                <span>$ 1499</span>
+                <span>$ 1000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="clothing">
                 <img src="./img/bag.png"/>
                 <p>sport bag</p>
-                <span>$ 1499</span>
+                <span>$ 2000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="technology">
                 <img src="./img/airpods.png"/>
                 <p>airpods pro2</p>
-                <span>$ 1499</span>
+                <span>$ 1000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="health">
                 <img src="./img/cream.png"/>
                 <p>face cream</p>
-                <span>$ 1499</span>
+                <span>$ 3000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="clothing">
                 <img src="./img/jacket.png"/>
                 <p>orange jacket</p>
-                <span>$ 1499</span>
+                <span>$ 1000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="health">
                 <img src="./img/shampoo.png"/>
-                <p>keratin shampoo</p>
-                <span>$ 1499</span>
+                <p>keratin shampoo health</p>
+                <span>$ 2000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="clothing">
                 <img src="./img/shoes.png"/>
-                <p>nike shoes</p>
-                <span>$ 1499</span>
+                <p>sport nike shoes</p>
+                <span>$ 2000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="health">
                 <img src="./img/vitamin.png"/>
-                <p>vitamin E</p>
-                <span>$ 1499</span>
+                <p>vitamin E health</p>
+                <span>$ 4000</span>
             </div>
-            <div class="product-item">
+            <div class="product-item" data-category="technology">
                 <img src="./img/watch.png"/>
-                <p>magnet watch</p>
-                <span>$ 1499</span>
+                <p>magnet apple watch</p>
+                <span>$ 2000</span>
             </div>
         </div>
     </main> 
-      
+    <script src="./app.js"></script> 
 </body>
 </html>
